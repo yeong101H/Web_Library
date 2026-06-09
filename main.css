@@ -1,0 +1,142 @@
+@font-face {
+  /*Regular두께*/
+  font-family: "Pretendard";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Regular.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  /*Bold두께*/
+  font-family: "Pretendard";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Bold.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}
+.genrePage {
+  /*홈 화면의 작품 카테고리 카드*/
+  margin-top: 130px;
+  margin-right: 2.5%;
+  margin-left: 9%;
+  background-color: #fff; /*카드 배경색*/
+  display: flex;
+  /*카드를 옆으로 정렬시키고 글자들을 원하는 위치(가운데 정렬)에 놓기 위해 필요*/
+  width: 280px; /*화면 크기 바뀔 때 자연스럽게 바뀌기 위해(가로)*/
+  height: 350px;
+  justify-content: center; /*글자 가운데 정렬*/
+  border-radius: 12px; /*모서리 둥글게*/
+  box-shadow: 1px 1px 5px 1px #dee2e6; /*그림자를 만들어서 경계선 명확하게 하기*/
+}
+.sitePage {
+  /*홈 화면의 작품 카테고리 카드*/
+  margin-top: 130px;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+  background-color: #fff; /*카드 배경색*/
+  display: flex;
+  /*카드를 옆으로 정렬시키고 글자들을 원하는 위치(가운데 정렬)에 놓기 위해 필요*/
+  width: 280px;
+  height: 350px;
+  justify-content: center; /*글자 가운데 정렬*/
+  border-radius: 12px; /*모서리 둥글게*/
+  box-shadow: 1px 1px 5px 1px #dee2e6; /*그림자를 만들어서 경계선 명확하게 하기*/
+}
+.novelOrToonPage {
+  /*홈 화면의 작품 카테고리 카드*/
+  margin-top: 130px;
+  margin-left: 2.5%;
+  margin-right: 9%;
+  background-color: #fff; /*카드 배경색*/
+  display: flex; /*카드를 옆으로 정렬시키고 글자들을 원하는 위치(가운데 정렬)에 놓기 위해 필요*/
+  width: 280px;
+  height: 350px;
+  justify-content: center; /*글자 가운데 정렬*/
+  border-radius: 12px; /*모서리 둥글게*/
+  box-shadow: 1px 1px 5px 1px #dee2e6; /*그림자를 만들어서 경계선 명확하게 하기*/
+}
+.mainCategory {
+  margin-top: 20px;
+  text-decoration: none; /*밑줄 삭제*/
+  font-size: 28px;
+  font-family: "Pretendard", sans-serif; /*폰트 지정*/
+  background: none;
+  color: #437355; /*포레스트 그린*/
+  font-weight: bold;
+}
+.categoryCard {
+  display: flex;
+  justify-content: center; /*flex항목 행을 정렬하는 방식 지정*/
+  align-items: center; /*flexbox에 지정하는 속성-flex항목의 열을 정렬하는 방식 지정*/
+  /*카테고리 카드를 가운데 정렬하기 위한 코드*/
+}
+.subCategory {
+  text-decoration: none; /*밑줄 삭제*/
+  font-size: 20px;
+  color: #222222;
+  font-family: "Pretendard", sans-serif; /*폰트 지정*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.subCategory-box {
+  display: flex;
+  flex-direction: column; /*글자들을 위에서 아래로 쌓기*/
+  align-items: center;
+  margin-top: 8px;
+}
+.storageBox-container {
+  background-color: #fff;
+  width: 300px;
+  height: 150px;
+  border-radius: 12px; /*모서리 둥글게*/
+  /*보관함 카테고리 카드 틀 만들기*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; /*글자들을 위에서 아래로 쌓기*/
+  margin-top: 25px;
+  margin-right: 2.5%;
+  box-shadow: 1px 1px 5px 1px #dee2e6; /*그림자를 만들어서 경계선 명확하게 하기*/
+}
+.randomRoulette-container {
+  background-color: #fff;
+  width: 300px;
+  height: 150px;
+  border-radius: 12px;
+  /*랜덤 룰렛 카테고리 카드 틀 만들기*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; /*글자들을 위에서 아래로 쌓기*/
+  margin-top: 25px;
+  margin-left: 2.5%;
+  box-shadow: 1px 1px 5px 1px #dee2e6; /*그림자를 만들어서 경계선 명확하게 하기*/
+}
+.otherCategoryCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.storageBox {
+  margin-top: 10px;
+  text-decoration: none; /*밑줄 삭제*/
+  font-size: 28px;
+  font-family: "Pretendard", sans-serif;
+  color: #437355;
+  font-weight: bold;
+}
+.randomRoulette {
+  margin-top: 10px;
+  text-decoration: none; /*밑줄 삭제*/
+  font-size: 28px;
+  font-family: "Pretendard", sans-serif;
+  color: #437355;
+  font-weight: bold;
+}
+.otherCategoryCard p {
+  font-size: 20px;
+  font-family: "Pretendard", sans-serif;
+}

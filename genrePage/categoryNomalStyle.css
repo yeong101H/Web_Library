@@ -1,0 +1,110 @@
+@font-face {
+  /*Regular두께*/
+  font-family: "Pretendard";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Regular.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  /*Bold두께*/
+  font-family: "Pretendard";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Bold.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}
+#genre-hover {
+  background-color: #2c4d38;
+  padding: 5px;
+  border-radius: 12px;
+  margin-left: 40px;
+}
+.css-dropdown {
+  background-color: #fff;
+  display: inline-block;
+  width: 200px;
+  height: 45px;
+  list-style: none;
+  padding: 0px;
+  border: 1px solid #e2ece6;
+  border-radius: 12px;
+  margin-top: 30px;
+  margin-left: 7%;
+}
+.css-dropdown:hover .dropdown-content {
+  /*상위 ul태그에 hover가 되면 하위 dropdown-content를 찾아서 적용한다.*/
+  display: block;
+  list-style: none;
+  background-color: #fff;
+  border: 1px solid #e2ece6;
+  width: 200px;
+  padding-left: 0px; /*하위 dropdown-content의 글자 위치가 같도록*/
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.css-dropdown:hover .dropdown-content a {
+  /*상위 ul태그에 hover가 되면 하위 dropdown-content를 찾아서 적용한다.*/
+  list-style: none;
+  font-family: "Pretendard", sans-serif; /*폰트 지정*/
+  font-size: 16px;
+  color: #222;
+  text-decoration: none; /*밑줄 삭제*/
+}
+.css-dropdown:hover .dropdown-content a:hover {
+  /*상위 ul태그에 hover가 되면 하위 dropdown-content를 찾아서 적용한다.*/
+  list-style: none;
+  font-family: "Pretendard", sans-serif; /*폰트 지정*/
+  font-size: 16px;
+  color: #222;
+  text-decoration: none; /*밑줄 삭제*/
+  background-color: #e2ece6;
+}
+.dropdown-content {
+  display: none;
+}
+.dropdown-parent {
+  /*화면에 기본적으로 나오는 드롭다운 텍스트*/
+  font-family: "Pretendard", sans-serif; /*폰트 지정*/
+  font-size: 16px;
+  color: #222;
+  text-decoration: none; /*밑줄 삭제*/
+  padding-top: 12px; /*상자 가운데에 배치*/
+}
+.bookCard {
+  background-color: #fff;
+  display: inline-flex;
+  margin-top: 20px;
+  margin-left: 9%;
+  width: 35%;
+  height: 225px;
+  color: #222;
+  padding: 15px;
+  border-radius: 12px;
+  font-family: "Pretendard", sans-serif; /*폰트 지정*/
+}
+.bookName {
+  font-size: 20px;
+  color: #437355;
+  font-family: "Pretendard", sans-serif; /*폰트 지정*/
+  font-weight: bold;
+}
+.bookCover {
+  width: 150px;
+  height: 225px;
+  border-radius: 6px;
+}
+.bookCardText p {
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  margin-left: 15px;
+}
+.bookCardText-notName {
+  font-family: "Pretendard", sans-serif; /*폰트 지정*/
+  font-size: 16px;
+  color: #222;
+}
