@@ -17,7 +17,7 @@
 }
 .genrePage {
   /*홈 화면의 작품 카테고리 카드*/
-  margin-top: 130px;
+  margin-top: 20px;
   margin-right: 2.5%;
   margin-left: 9%;
   background-color: #fff; /*카드 배경색*/
@@ -31,7 +31,7 @@
 }
 .sitePage {
   /*홈 화면의 작품 카테고리 카드*/
-  margin-top: 130px;
+  margin-top: 20px;
   margin-right: 2.5%;
   margin-left: 2.5%;
   background-color: #fff; /*카드 배경색*/
@@ -45,7 +45,7 @@
 }
 .novelOrToonPage {
   /*홈 화면의 작품 카테고리 카드*/
-  margin-top: 130px;
+  margin-top: 20px;
   margin-left: 2.5%;
   margin-right: 9%;
   background-color: #fff; /*카드 배경색*/
@@ -119,6 +119,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 40px;
 }
 .storageBox {
   margin-top: 10px;
@@ -139,4 +140,51 @@
 .otherCategoryCard p {
   font-size: 20px;
   font-family: "Pretendard", sans-serif;
+}
+
+.recommendOfMonthCard {
+  font-family: "Pretendard", sans-serif;
+  color: #222222;
+  background-color: #e2ece6;
+  width: 57%;
+  height: 130px;
+  border-radius: 12px;
+  margin-left: 20%;
+  margin-top: 15px;
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none; /*밑줄 삭제*/
+}
+.recommendOfMonthCard:hover {
+  border: 3px solid #437355;
+  margin-top: 10px;
+  margin-left: 19%;
+}
+.recommendOfMonthCard p,
+.recommendOfMonthCard h3 {
+  margin: 6px; /*각각 다른 태그들의 간격 조절*/
+}
+.CardName {
+  margin-bottom: 4px;
+  font-size: 20px;
+  text-decoration: none !important; /*밑줄 삭제*/
+  color: #2c4d38;
+  font-weight: bold;
+}
+.recommendBookOfMonth {
+  text-decoration: none; /*밑줄 삭제*/
+  color: #2c4d38;
+  font-weight: bold;
+  font-family: "Pretendard", sans-serif;
+}
+.text {
+  font-weight: bold;
+}
+.text,
+.text-2 {
+  font-size: 15px;
+}
+.recommendOfMonthLink {
+  text-decoration: none; /*밑줄 삭제*/
 }

@@ -15,65 +15,120 @@
   font-weight: 700;
   font-display: swap;
 }
-#genre-hover {
-  background-color: #2c4d38;
-  padding: 5px;
-  border-radius: 12px;
-  margin-left: 40px;
+.bookCover-detailPage {
+  width: 150px;
+  height: 225px;
+  border-radius: 6px;
+  margin: 20px;
 }
-.css-dropdown {
+.bookInformation {
+  flex-direction: column;
+}
+.BookDetailPagesCard {
+  display: flex;
   background-color: #fff;
-  display: inline-block;
-  width: 200px;
-  height: 45px;
-  list-style: none;
-  padding: 0px;
-  border: 1px solid #e2ece6;
   border-radius: 12px;
+  width: 78%;
+  height: auto; /*상자의 크기가 텍스트 크기 만큼 늘어나게*/
+  margin-left: 9%;
   margin-top: 30px;
-  margin-left: 7%;
-}
-.css-dropdown:hover .dropdown-content {
-  /*상위 ul태그에 hover가 되면 하위 dropdown-content를 찾아서 적용한다.*/
-  display: block;
-  list-style: none;
-  background-color: #fff;
-  border: 1px solid #e2ece6;
-  width: 200px;
-  padding-left: 0px; /*하위 dropdown-content의 글자 위치가 같도록*/
-  padding-bottom: 5px;
-  padding-top: 5px;
-  border-bottom-left-radius: 12px;
-  border-bottom-right-radius: 12px;
-}
-.css-dropdown:hover .dropdown-content a {
-  /*상위 ul태그에 hover가 되면 하위 dropdown-content를 찾아서 적용한다.*/
-  list-style: none;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
   font-family: "Pretendard", sans-serif; /*폰트 지정*/
   font-size: 16px;
   color: #222;
-  text-decoration: none; /*밑줄 삭제*/
 }
-.css-dropdown:hover .dropdown-content a:hover {
-  /*상위 ul태그에 hover가 되면 하위 dropdown-content를 찾아서 적용한다.*/
-  list-style: none;
-  font-family: "Pretendard", sans-serif; /*폰트 지정*/
-  font-size: 16px;
-  color: #222;
-  text-decoration: none; /*밑줄 삭제*/
-  background-color: #e2ece6;
+.bookName {
+  font-weight: bold;
+  font-size: 32px;
+  color: #437355;
+  margin-bottom: 8px;
+  margin-top: 20px;
+  white-space: nowrap; /* 자동 줄바꿈 방지 */
 }
-.dropdown-content {
+.writer {
+  font-weight: bold;
+  color: #437355;
+}
+.writerCard {
+  margin-top: 3px;
+  margin-left: 10px;
+  padding-left: 5px;
+  color: #606964;
+}
+.writerText {
+  line-height: 10px;
+}
+.otherStoryLineCard {
   display: none;
 }
-.dropdown-parent {
-  /*화면에 기본적으로 나오는 드롭다운 텍스트*/
+input[type="checkbox"] {
+  display: none;
+}
+input[type="checkbox"] + label {
+  /*글자(작품 소개)만 클릭해도 동작한다*/
+  margin-top: 73px;
+  margin-left: 30px;
+  color: #606964;
+  width: 40%;
+  cursor: pointer; /*마우스 커서를 가져다 대었을때 손가락 모양으로 바꿔주는 코드*/
+}
+#StoryName {
+  color: #437355;
+  font-family: "Pretendard", sans-serif; /*폰트 지정*/
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+input[type="checkbox"]:checked ~ .otherStoryLineCard {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+  margin-left: 30px;
+}
+input[type="checkbox"]:checked + label #StorySome {
+  display: none;
+}
+input[type="checkbox"]:checked + label #more {
+  display: none;
+}
+#more {
+  color: #606964b1;
+}
+#StoryInformationCard {
+  display: flex;
+  flex-direction: column;
+}
+#BookMemoCard {
+  background-color: #fff;
+  border-radius: 12px;
+  margin-left: 9%;
+  width: 78%;
+  height: auto;
+  padding-top: 2px;
+}
+textarea {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 95%;
+  resize: none;
+  border: none;
   font-family: "Pretendard", sans-serif; /*폰트 지정*/
   font-size: 16px;
   color: #222;
-  text-decoration: none; /*밑줄 삭제*/
-  padding-top: 12px; /*상자 가운데에 배치*/
 }
+textarea:focus {
+  outline-color: #437355;
+}
+#memo {
+  font-family: "Pretendard", sans-serif; /*폰트 지정*/
+  font-size: 16px;
+  color: #437355;
+  font-weight: bold;
+  margin: 20px;
+}
+
 .bookCard {
   /*카테고리 페이지의 카드와 같은 속성*/
   background-color: #fff;
@@ -137,4 +192,12 @@
   margin-left: 11%;
   margin-top: 20px;
   margin-bottom: 0px;
+}
+.original {
+  font-weight: bold;
+  color: #437355;
+  padding: 10px;
+  background-color: #e2ece6;
+  display: inline;
+  border-radius: 12px;
 }

@@ -11,6 +11,23 @@ body {
   font-weight: normal;
   font-display: swap;
 }
+@font-face {
+  /*Regular두께*/
+  font-family: "Pretendard";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Regular.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  /*Bold두께*/
+  font-family: "Pretendard";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Bold.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}
 .home {
   text-decoration: none; /*밑줄 없애는 코드*/
   cursor: pointer; /*마우스 커서를 가져다 대었을때 손가락 모양으로 바꿔주는 코드*/
@@ -39,7 +56,9 @@ body {
   padding-left: 8%; /* 글자가 왼쪽 벽에 너무 붙지 않도록 여백을 줍니다. */
   padding-right: 8%;
   box-sizing: border-box; /* 패딩을 넣어도 전체 width가 900px로 유지되게 합니다. */
-  position: relative; /*로그인 버튼 오른쪽으로 붙이기 위한 기준점*/
+  position: sticky; /*스크롤을 내려도 네비게이션이 고정되게 하기 위한 코드*/
+  top: 0; /*네비게에션 고정을 위한 조건*/
+  font-family: "Pretendard", sans-serif; /*폰트 지정*/
 }
 .headCategory {
   /*상단 카테고리의 키워드*/
@@ -59,14 +78,8 @@ body {
   font-family: "Pretendard", sans-serif;
   text-decoration: none; /*밑줄 삭제*/
   font-size: 22px;
-  margin-left: 10px;
-  left: 8%;
-}
-.searchIcon {
-  margin-left: auto;
-  left: 2%;
-  cursor: pointer;
-  left: 8%;
+  margin-left: 30%; /*오른쪽으로 보내기 위해*/
+  left: 10%;
 }
 #genre-hover:hover {
   /*마우스를 가져다 대었을때 색바뀌기*/
