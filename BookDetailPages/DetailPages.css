@@ -37,6 +37,7 @@
   font-family: "Pretendard", sans-serif; /*폰트 지정*/
   font-size: 16px;
   color: #222;
+  box-shadow: 1px 1px 5px 1px #dee2e6; /*그림자를 만들어서 경계선 명확하게 하기*/
 }
 .bookName {
   font-weight: bold;
@@ -106,6 +107,7 @@ input[type="checkbox"]:checked + label #more {
   width: 78%;
   height: auto;
   padding-top: 2px;
+  box-shadow: 1px 1px 5px 1px #dee2e6; /*그림자를 만들어서 경계선 명확하게 하기*/
 }
 textarea {
   margin-left: 20px;
@@ -141,6 +143,7 @@ textarea:focus {
   padding: 15px;
   border-radius: 12px;
   font-family: "Pretendard", sans-serif; /*폰트 지정*/
+  box-shadow: 1px 1px 5px 1px #dee2e6; /*그림자를 만들어서 경계선 명확하게 하기*/
 }
 .bookName {
   font-size: 20px;
@@ -180,6 +183,7 @@ textarea:focus {
   padding: 15px;
   border-radius: 12px;
   font-family: "Pretendard", sans-serif; /*폰트 지정*/
+  box-shadow: 1px 1px 5px 1px #dee2e6; /*그림자를 만들어서 경계선 명확하게 하기*/
 }
 .similarBooks {
   margin-bottom: 40px;

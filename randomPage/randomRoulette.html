@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="ko">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Web_Library-판타지</title>
+    <title>Web_Library-랜덤 룰렛 페이지</title>
     <link rel="stylesheet" href="../header.css" />
-    <link rel="stylesheet" href="../genrePage/categoryNomalStyle.css" />
+    <link rel="stylesheet" href="../randomPage/randomRoulette.css" />
   </head>
   <body>
     <div class="header">
@@ -31,24 +31,10 @@
       >
       <a href="/" class="login">로그인</a>
     </div>
-    <ul class="css-dropdown">
-      <li class="dropdown-parent">
-        판타지
-        <!--장르 카테고리에서 드롭다운?으로 이동할때 바뀌는 부분-->
-        <ul class="dropdown-content">
-          <li>
-            <a href="../genrePage/genre-romanceFantasy.html">로맨스 판타지</a>
-          </li>
-          <li><a href="../genrePage/genre-Wuxia.html">무협</a></li>
-          <li>
-            <a href="../genrePage/genre-Contemporary Fantasy.html"
-              >현대 판타지</a
-            >
-          </li>
-          <li><a href="../genrePage/genre-romance.html">로맨스</a></li>
-          <li><a href="../genrePage/genre-other.html">기타</a></li>
-        </ul>
-      </li>
-    </ul>
+    <div class="rouletteCard">
+      <div id="webtoonCardContainer">?</div>
+    </div>
+    <button id="recommendBtn">룰렛 돌리기</button>
+    <script src="./randomRoulette.js"></script>
   </body>
 </html>

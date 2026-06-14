@@ -84,31 +84,41 @@ body {
 #genre-hover:hover {
   /*마우스를 가져다 대었을때 색바뀌기*/
   background-color: #2c4d38;
-  padding: 5px;
+  padding: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
   border-radius: 12px;
-  margin-left: 40px;
+  margin-left: 30px;
 }
 #site-hover:hover {
   background-color: #2c4d38;
-  padding: 5px;
+  padding: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
   border-radius: 12px;
-  margin-left: 40px;
+  margin-left: 30px;
 }
 #webtoonOrWebnovel-hover:hover {
   background-color: #2c4d38;
-  padding: 5px;
+  padding: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
   border-radius: 12px;
-  margin-left: 40px;
+  margin-left: 30px;
 }
 #subCategory-hover:hover {
   background-color: #2c4d38;
-  padding: 5px;
+  padding: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
   border-radius: 12px;
-  margin-left: 40px;
+  margin-left: 30px;
 }
 #randomRoulette-hover:hover {
   background-color: #2c4d38;
-  padding: 5px;
+  padding: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
   border-radius: 12px;
-  margin-left: 40px;
+  margin-left: 30px;
 }

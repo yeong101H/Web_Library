@@ -155,6 +155,7 @@
   padding-top: 10px;
   padding-bottom: 10px;
   text-decoration: none; /*밑줄 삭제*/
+  display: inline-block;
 }
 .recommendOfMonthCard:hover {
   border: 3px solid #437355;
