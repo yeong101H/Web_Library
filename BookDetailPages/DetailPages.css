@@ -194,7 +194,7 @@ textarea:focus {
   color: #437355;
   font-size: 22px;
   font-weight: bold;
-  margin-left: 11%;
+  margin-left: 12%;
   margin-top: 20px;
   margin-bottom: 0px;
 }
@@ -215,4 +215,31 @@ textarea:focus {
   background-color: #e2ece6;
   padding: 7px;
   border-radius: 12px;
+}
+#leftBox {
+  width: 19%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  bottom: -1;
+  left: 0;
+  z-index: -1;
+  opacity: 0.1;
+}
+#rightBox {
+  width: 19%;
+  height: 100%;
+  margin: 0;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  opacity: 0.1;
 }

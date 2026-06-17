@@ -26,12 +26,12 @@
   border-radius: 12px;
   transition: transform 0.6s;
   transform: perspective(800px) rotateY(0deg);
-  box-shadow: 1px 1px 5px 1px #dee2e6; /*그림자를 만들어서 경계선 명확하게 하기*/
 }
 .rouletteCard #cardBack {
   font-family: "Pretendard", sans-serif; /*폰트 지정*/
   font-size: 70px;
   font-weight: bold;
+  color: #2c4d38;
 }
 .rouletteCard.flip {
   transform: perspective(800px) rotateY(180deg);
@@ -85,12 +85,49 @@ button {
   color: #437355;
   background-color: #e2ece6;
   border-radius: 12px;
-  border-style: none;
-  box-shadow: 1px 1px 5px 1px #dee2e6; /*그림자를 만들어서 경계선 명확하게 하기*/
+  border: #43735596 solid 2px;
+}
+button:active {
+  background-color: #bbdcc8;
 }
 #randomRouletteset {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  width: 700px;
+  height: 500px;
+  margin-left: 21%;
+  margin-top: 30px;
+  border: #4373556e solid 2px;
+}
+#leftBox {
+  width: 19%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  bottom: -1;
+  left: 0;
+  z-index: -1;
+  opacity: 0.1;
+}
+#rightBox {
+  width: 19%;
+  height: 100%;
+  margin: 0;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  opacity: 0.1;
 }

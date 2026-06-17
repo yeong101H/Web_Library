@@ -31,6 +31,11 @@
       >
       <a href="/" class="login">로그인</a>
     </div>
+    <div id="leftBox">
+      <img src="../Leaps/1-removebg-preview.png" alt="흩날리는 나뭇잎들" />
+      <img src="../Leaps/2-removebg-preview.png" alt="조금 다르게 흩날려보기" />
+      <img src="../Leaps/3-removebg-preview.png" alt="또 다르게 흩날리기" />
+    </div>
     <div class="BookDetailPagesCard">
       <img
         src="../bookcover/dlrkwn_Tia_bookCover.webp"
@@ -105,8 +110,10 @@
       <textarea
         name="memo"
         id="BookMemo"
+        data-storage-key="memo-Tia"
         placeholder="작품에 대한 감상을 적어보세요"
       ></textarea>
+      <!--data-storage-key="memo-Tia"이 부분은 로컬 스토리지의 이름을 다 다르게 지정해주어 작품별로 다른 값을 저장할 수 있도록 한다.-->
     </div>
     <div class="similarBooks">
       <p class="similarBooksName">연관 작품</p>
@@ -130,5 +137,17 @@
         </div>
       </a>
     </div>
+    <div id="rightBox">
+      <img src="../Leaps/2-removebg-preview.png" alt="어쨌든 흩날림" />
+      <img
+        src="../Leaps/3-removebg-preview.png"
+        alt="보이지 않겠지만 흩날리고 있어요"
+      />
+      <img
+        src="../Leaps/1-removebg-preview.png"
+        alt="착한사람에게만 보이는 나뭇잎들"
+      />
+    </div>
+    <script src="./Memo.js"></script>
   </body>
 </html>
