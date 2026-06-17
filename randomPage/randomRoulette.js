@@ -33,6 +33,15 @@ document.addEventListener("DOMContentLoaded", function () {
         "https://search.pstatic.net/common?type=f&size=174x226&quality=75&direct=true&src=https%3A%2F%2Fshared-comic.pstatic.net%2Fthumb%2Fwebtoon%2F834369%2Fthumbnail%2Fthumbnail_IMAG21_053009da-be7a-41d4-a3ab-b0321963e8e0.jpg",
       linkUrl: "/",
     },
+    {
+      title: "화산귀환",
+      site: "네이버 웹툰",
+      type: "웹툰",
+      genre: "무협",
+      imgUrl:
+        "https://search.pstatic.net/common?type=f&size=174x226&quality=75&direct=true&src=https%3A%2F%2Fshared-comic.pstatic.net%2Fthumb%2Fwebtoon%2F769209%2Fthumbnail%2Fthumbnail_IMAG21_3511dcdd-6e33-4171-8839-598d6d266215.jpg",
+      linkUrl: "/",
+    },
   ];
   /*
   상수로 되어 있는 배열이 맞음.

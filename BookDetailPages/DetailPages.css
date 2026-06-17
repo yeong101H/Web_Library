@@ -33,7 +33,7 @@
   margin-left: 9%;
   margin-top: 30px;
   margin-bottom: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   font-family: "Pretendard", sans-serif; /*폰트 지정*/
   font-size: 16px;
   color: #222;
@@ -54,6 +54,7 @@
 .writerCard {
   margin-top: 3px;
   margin-left: 10px;
+  margin-bottom: 50px; /*작품 바로보기 링크와의 간격 띄우기*/
   padding-left: 5px;
   color: #606964;
 }
@@ -175,7 +176,7 @@ textarea:focus {
   background-color: #fff;
   display: inline-flex;
   margin-top: 20px;
-  margin-left: 9%;
+  margin-left: 11%;
   margin-bottom: 5px;
   width: 36%;
   height: 225px;
@@ -203,5 +204,15 @@ textarea:focus {
   padding: 10px;
   background-color: #e2ece6;
   display: inline;
+  border-radius: 12px;
+}
+#bookLink {
+  text-decoration: none; /*밑줄 삭제*/
+  font-family: "Pretendard", sans-serif; /*폰트 지정*/
+  font-size: 16px;
+  font-weight: bold;
+  color: #437355;
+  background-color: #e2ece6;
+  padding: 7px;
   border-radius: 12px;
 }
