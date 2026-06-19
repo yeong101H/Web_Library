@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
       genre: "기타",
       imgUrl:
         "https://search.pstatic.net/common?type=f&size=174x226&quality=75&direct=true&src=https%3A%2F%2Fshared-comic.pstatic.net%2Fthumb%2Fwebtoon%2F834369%2Fthumbnail%2Fthumbnail_IMAG21_053009da-be7a-41d4-a3ab-b0321963e8e0.jpg",
-      linkUrl: "/",
+      linkUrl: "../BookDetailPages/Mori.html",
     },
     {
       title: "화산귀환",
@@ -40,7 +40,25 @@ document.addEventListener("DOMContentLoaded", function () {
       genre: "무협",
       imgUrl:
         "https://search.pstatic.net/common?type=f&size=174x226&quality=75&direct=true&src=https%3A%2F%2Fshared-comic.pstatic.net%2Fthumb%2Fwebtoon%2F769209%2Fthumbnail%2Fthumbnail_IMAG21_3511dcdd-6e33-4171-8839-598d6d266215.jpg",
+      linkUrl: "../BookDetailPages/cjdaud.html",
+    },
+    {
+      title: "괴담에 떨어져도 출근을 해야 하는구나",
+      site: "카카오 페이지",
+      type: "웹툰",
+      genre: "현대 판타지",
+      imgUrl:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd6hzR0KeTq9k5KuH-sHgmD8iXYWLNT7MR51opGXSk0w&s=10",
       linkUrl: "/",
+    },
+    {
+      title: "별을 품은 소드 마스터",
+      site: "네이버 웹툰",
+      type: "웹툰",
+      genre: "판타지",
+      imgUrl:
+        "https://search.pstatic.net/common?type=f&size=174x226&quality=75&direct=true&src=https%3A%2F%2Fshared-comic.pstatic.net%2Fthumb%2Fwebtoon%2F816809%2Fthumbnail%2Fthumbnail_IMAG21_7cdbae7a-df9f-4277-9e40-844c0dbd1af3.jpg",
+      linkUrl: "../BookDetailPages/qufvnath.html",
     },
   ];
   /*

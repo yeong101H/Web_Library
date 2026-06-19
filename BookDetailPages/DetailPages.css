@@ -176,7 +176,7 @@ textarea:focus {
   background-color: #fff;
   display: inline-flex;
   margin-top: 20px;
-  margin-left: 11%;
+  margin-left: 9%;
   margin-bottom: 5px;
   width: 36%;
   height: 225px;
@@ -242,4 +242,30 @@ textarea:focus {
   right: 0;
   z-index: -1;
   opacity: 0.1;
+}
+#recommendOfbook {
+  background-color: #fff;
+  border-radius: 12px;
+  width: 78%;
+  height: auto;
+  padding: 2px;
+  margin-left: 9%;
+  margin-bottom: 20px; /*추천 카드와 메모 카드 사이의 마진*/
+  box-shadow: 1px 1px 5px 1px #dee2e6; /*그림자를 만들어서 경계선 명확하게 하기*/
+}
+#recommendText1 {
+  font-family: "Pretendard", sans-serif; /*폰트 지정*/
+  font-size: 16px;
+  color: #437355;
+  font-weight: bold;
+  margin: 20px;
+}
+#recommendTextMain {
+  font-family: "Pretendard", sans-serif; /*폰트 지정*/
+  font-size: 16px;
+  color: #222;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  line-height: 23px; /*줄 간격 띄우기*/
 }

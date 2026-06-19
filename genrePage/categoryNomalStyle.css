@@ -135,7 +135,7 @@
 }
 .similarBooksName {
   font-family: "Pretendard", sans-serif; /*폰트 지정*/
-  color: #437355;
+  color: #437355; /*숲 뭐시기 색상*/
   font-size: 22px;
   font-weight: bold;
   margin-left: 11%;
@@ -171,4 +171,11 @@
   right: 0;
   z-index: -1;
   opacity: 0.1;
+}
+#recommendationBook {
+  background-color: #e2ece6;
+}
+#recommendOfbook {
+  display: flex;
+  flex-direction: column;
 }
