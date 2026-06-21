@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>과학고 생존일지</title>
+    <link rel="stylesheet" href="../header.css" />
+    <link rel="stylesheet" href="../BookDetailPages/DetailPages.css" />
+  </head>
+  <body>
+    <div class="header">
+      <a href="../main.html" class="home">Web_Library</a>
+      <a
+        href="../categoryPages/genrePage/genre-romanceFantasy.html"
+        class="headCategory"
+        id="genre-hover"
+        >장르</a
+      >
+      <a href="/" class="headCategory" id="site-hover">사이트</a>
+      <a href="/" class="headCategory" id="webtoonOrWebnovel-hover">매체</a>
+      <a href="/" class="headCategory" id="subCategory-hover">보관함</a>
+      <a
+        href="../randomPage/randomRoulette.html"
+        class="headCategory"
+        id="randomRoulette-hover"
+        >랜덤 룰렛</a
+      >
+      <a href="/" class="login">로그인</a>
+    </div>
+    <div id="leftBox">
+      <img src="../Leaps/1-removebg-preview.png" alt="흩날리는 나뭇잎들" />
+      <img src="../Leaps/2-removebg-preview.png" alt="조금 다르게 흩날려보기" />
+      <img src="../Leaps/3-removebg-preview.png" alt="또 다르게 흩날리기" />
+    </div>
+    <div id="center">
+      <div class="BookDetailPagesCard">
+        <img
+          src="https://search.pstatic.net/common?type=f&size=174x226&quality=75&direct=true&src=https%3A%2F%2Fshared-comic.pstatic.net%2Fthumb%2Fwebtoon%2F841608%2Fthumbnail%2Fthumbnail_IMAG21_b8a6d322-5829-4108-afe1-6e0cd26299c8.jpg"
+          alt="작품 표지"
+          class="bookCover-detailPage"
+        />
+        <div class="bookInformation">
+          <p class="bookName">과학고 생존일지</p>
+          <p>연재 사이트 | 네이버 웹툰</p>
+          <p>장르 | 기타</p>
+          <p>매체 | 웹툰</p>
+          <p class="writer">작가</p>
+          <div class="writerCard">
+            <p class="writerText">스토리 | 윤찐빵</p>
+            <p class="writerText">작화 | 윤찐빵</p>
+          </div>
+          <a
+            href="https://comic.naver.com/webtoon/list?titleId=841608"
+            id="bookLink"
+            >작품 바로보러 가기!</a
+          >
+        </div>
+        <div id="StoryInformationCard">
+          <input type="checkbox" id="bookStory" />
+          <label for="bookStory">
+            <span id="StoryName">작품 소개</span>
+            <span id="StorySome">
+              과학보다 만화가 좋았고, 수학은 보기만 해도 머리가 아픈 찐빵이.
+              <br />
+              그런 내가... 대한민국 영재들만 모인다는 과학고에 덜컥 입학했다.
+              ...<br />
+              <br />
+            </span>
+
+            <span id="more">더보기</span>
+          </label>
+
+          <div class="otherStoryLineCard">
+            <p>
+              과학보다 만화가 좋았고, 수학은 보기만 해도 머리가 아픈 찐빵이.
+              <br />
+              그런 내가... 대한민국 영재들만 모인다는 과학고에 덜컥 입학했다.
+              <br />
+              천재들 사이에서 살아남기 위한, 범재의 눈물겨운 생존 분투기! <br />
+              100% 실화 기반 하이퍼리얼리즘 일상툰 :3
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="BookMemoCard">
+        <p id="memo">메모</p>
+        <textarea
+          name="memo"
+          id="BookMemo"
+          data-storage-key="memo-ScienceToon"
+          placeholder="작품에 대한 감상을 적어보세요"
+        ></textarea>
+      </div>
+      <div id="rightBox">
+        <img src="../Leaps/2-removebg-preview.png" alt="어쨌든 흩날림" />
+        <img
+          src="../Leaps/3-removebg-preview.png"
+          alt="보이지 않겠지만 흩날리고 있어요"
+        />
+        <img
+          src="../Leaps/1-removebg-preview.png"
+          alt="착한사람에게만 보이는 나뭇잎들"
+        />
+      </div>
+    </div>
+    <script src="./Memo.js"></script>
+  </body>
+</html>

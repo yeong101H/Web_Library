@@ -60,6 +60,283 @@ document.addEventListener("DOMContentLoaded", function () {
         "https://search.pstatic.net/common?type=f&size=174x226&quality=75&direct=true&src=https%3A%2F%2Fshared-comic.pstatic.net%2Fthumb%2Fwebtoon%2F816809%2Fthumbnail%2Fthumbnail_IMAG21_7cdbae7a-df9f-4277-9e40-844c0dbd1af3.jpg",
       linkUrl: "../BookDetailPages/qufvnath.html",
     },
+    {
+      title: "이번생은 가주가 되겠습니다",
+      site: "카카오 페이지",
+      type: "웹소설",
+      genre: "로맨스 판타지",
+      imgUrl:
+        "//encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4si5jBTwoYHmjpIisEV-xaQcwquSViX5FXZ23C7_rpw&s=10",
+      linkUrl: "../BookDetailPages/TiaNovel.html",
+    },
+    {
+      title: "가짜를 위한 장소는 없다",
+      site: "카카오 페이지",
+      type: "웹툰",
+      genre: "로맨스 판타지",
+      imgUrl: "../bookcover/rkWKfmfdnlgkswkdth_filomel_bookCover.jpg",
+      linkUrl: "../BookDetailPages/Filomel.html",
+    },
+    {
+      title: "빙의자를 위한 특혜",
+      site: "카카오 페이지",
+      type: "웹툰",
+      genre: "로맨스 판타지",
+      imgUrl: "../bookcover/qlddmlxmr_Ailet_bokkCover.jpg",
+      linkUrl: "../BookDetailPages/Ailet.html",
+    },
+    {
+      title: "이상한데 효과적인 악녀 생활",
+      site: "카카오 페이지",
+      type: "웹툰",
+      genre: "로맨스 판타지",
+      imgUrl:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkfksDYSj8NCZDs8CfRKfpneeA3_jjPTxKIFkYOvTBRQ&s=10",
+      linkUrl: "../BookDetailPages/Kiana.html",
+    },
+    {
+      title: "눈 먼 공작과 약혼했다",
+      site: "카카오 페이지",
+      type: "웹툰",
+      genre: "로맨스 판타지",
+      imgUrl:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNYrUQtWfk-5gvbDVPbcrWBbKJ2186ew7dgQp_Ilh25A&s=10",
+      linkUrl: "../BookDetailPages/Marin.html",
+    },
+    {
+      title: "이 황제는 결혼 사기를 칩니다",
+      site: "카카오 페이지",
+      type: "웹툰",
+      genre: "로맨스 판타지",
+      imgUrl:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKPF95f3zvc4ipqIgd3x_tyXG7XjxzVJ-jX6-B0NXN7g&s=10",
+      linkUrl: "../BookDetailPages/FakeMerry.html",
+    },
+    {
+      title: "겨울성의 아기 죄수님",
+      site: "카카오 페이지",
+      type: "웹툰",
+      genre: "로맨스 판타지",
+      imgUrl:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjX2zL1IzbCJtlv4Mr3_Gf1U65wvgqXflyKfn7f3B81Q&s=10",
+      linkUrl: "../BookDetailPages/Claris.html",
+    },
+    {
+      title: "그 악녀를 조심하세요!",
+      site: "카카오 페이지",
+      type: "웹툰",
+      genre: "로맨스 판타지",
+      imgUrl:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAxGpV7Z1QlCNcaSIE80ZEx4tQa-99TEbNKXkX5s6ZGw&s=10",
+      linkUrl: "../BookDetailPages/rmdkrsufmf.html",
+    },
+    {
+      title: "흑막 범고래 아기님",
+      site: "카카오 페이지",
+      type: "웹툰",
+      genre: "로맨스 판타지",
+      imgUrl:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-OIxrnom9Fgp7KAtH5teffaxGt7ftNkhB41LuDyE1gA&s=10",
+      linkUrl: "../BookDetailPages/Kalipso.html",
+    },
+    {
+      title: "백호 가문의 아기 솜뭉치",
+      site: "카카오 페이지",
+      type: "웹툰",
+      genre: "로맨스 판타지",
+      imgUrl:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPN1QLdzLFKl5cp3Ysa9KIAp4j0dBgx7uOQMUPyYvDGA&s",
+      linkUrl: "../BookDetailPages/thaandcl.html",
+    },
+    {
+      title: "황제궁 옆 마로니에 농장",
+      site: "카카오 페이지",
+      type: "웹툰",
+      genre: "로맨스 판타지",
+      imgUrl:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0EUrqpwfhAWThEd-FvEiuczypw9LsdVHNfp3FOe2yuQ&s",
+      linkUrl: "../BookDetailPages/Hazel.html",
+    },
+    {
+      title: "계모인데, 딸이 너무 귀여워",
+      site: "카카오 페이지",
+      type: "웹툰",
+      genre: "로맨스 판타지",
+      imgUrl:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAbcazqWhnwf31XKibb_AbR5V8SancHGhTyQdAOQbT-Q&s",
+      linkUrl: "../BookDetailPages/rPahdlsep.html",
+    },
+    {
+      title: "막내 공녀의 총애를 독차지했더니, 모두 내게 집착한다",
+      site: "카카오 페이지",
+      type: "웹툰",
+      genre: "로맨스 판타지",
+      imgUrl:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXv8WLGiVvXV4VIWl6xA4CWV3M27UhL8y0-UQXPbp6og&s=10",
+      linkUrl: "../BookDetailPages/akrsorhdsudml.html",
+    },
+    {
+      title: "악역 소녀는 사랑받기가 부끄러워요",
+      site: "카카오 페이지",
+      type: "웹툰",
+      genre: "로맨스 판타지",
+      imgUrl:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr6MN_kcKV8vhYExW_5nZqn0Hy4Vpj-sllJg-iYLRUHQ&s=10",
+      linkUrl: "../BookDetailPages/dkrdurqnRm.html",
+    },
+    {
+      title: "다시 한번, 빛 속으로",
+      site: "카카오 페이지",
+      type: "웹툰",
+      genre: "로맨스 판타지",
+      imgUrl:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD6vwI_9z-zQGFtY5VvGfq6RhiVTc1mrFGwwIXl2UQhw&s=10",
+      linkUrl: "../BookDetailPages/againLight.html",
+    },
+    {
+      title: "곱게 키웠더니, 짐승",
+      site: "카카오 페이지",
+      type: "웹툰",
+      genre: "로맨스 판타지",
+      imgUrl:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzVxteQuP-tIRxHPRNqHmwnNFhFEHhc8KfJTILT3eI7w&s=10",
+      linkUrl: "../BookDetailPages/Eimon.html",
+    },
+    {
+      title: "눈 먼 공작과 약혼했다",
+      site: "카카오 페이지",
+      type: "웹소설",
+      genre: "로맨스 판타지",
+      imgUrl:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNYrUQtWfk-5gvbDVPbcrWBbKJ2186ew7dgQp_Ilh25A&s=10",
+      linkUrl: "../BookDetailPages/MarinNovel.html",
+    },
+    {
+      title: "이 황제는 결혼 사기를 칩니다",
+      site: "카카오 페이지",
+      type: "웹소설",
+      genre: "로맨스 판타지",
+      imgUrl:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQneA8735v8nwe2AbkBmaOgLYVJruhSPRDgld_Qe90vWQ&s=10",
+      linkUrl: "../BookDetailPages/FakeMerryNovel.html",
+    },
+    {
+      title: "겨울성의 아기 죄수님",
+      site: "카카오 페이지, 네이버 시리즈",
+      type: "웹소설",
+      genre: "로맨스 판타지",
+      imgUrl:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzsFuyxWUBF_ZWOACrI_PoxAkghH8DUZVepZ6xth98VQ&s=10",
+      linkUrl: "../BookDetailPages/ClarisNovel.html",
+    },
+    {
+      title: "그 악녀를 조심하세요!",
+      site: "카카오 페이지",
+      type: "웹소설",
+      genre: "로맨스 판타지",
+      imgUrl:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_5r3eTwXSL3O6x-5brWE_5p9O_xz0dqiKoxLi1b7foA&s=10",
+      linkUrl: "../BookDetailPages/rmdkrsufmfNovel.html",
+    },
+    {
+      title: "흑막 범고래 아기님",
+      site: "카카오 페이지, 네이버 시리즈",
+      type: "웹소설",
+      genre: "로맨스 판타지",
+      imgUrl:
+        "https://page-images.kakaoentcdn.com/download/resource?kid=cdYKw5/dJMcahjKNuv/LNurx2WBNIjTj5GvH2S000&filename=o1/dims/resize/384",
+      linkUrl: "../BookDetailPages/KalipsoNovel.html",
+    },
+    {
+      title: "백호 가문의 아기 솜뭉치",
+      site: "카카오 페이지",
+      type: "웹소설",
+      genre: "로맨스 판타지",
+      imgUrl:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS31hukrGqRmtYMDcfxGMsnnX8Ncl-gBgmOr6-MO5VGLw&s=10",
+      linkUrl: "../BookDetailPages/thaandclNovel.html",
+    },
+    {
+      title: "황제궁 옆 마로니에 농장",
+      site: "카카오 페이지, 네이버 시리즈",
+      type: "웹소설",
+      genre: "로맨스 판타지",
+      imgUrl:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVvMRUCxiyrXrJr4LAEJ7hJk7-DVJD0RKDw8GjdXoLBw&s=10",
+      linkUrl: "../BookDetailPages/HazelNovel.html",
+    },
+    {
+      title: "계모인데, 딸이 너무 귀여워",
+      site: "카카오 페이지",
+      type: "웹소설",
+      genre: "로맨스 판타지",
+      imgUrl:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsnAN0LuDWZDxVRcwT9-W_5NQXCTSU6dctSYTpcbJqOw&s=10",
+      linkUrl: "../BookDetailPages/rPahdlsepNovel.html",
+    },
+    {
+      title: "막내 공녀의 총애를 독차지했더니, 모두 내게 집착한다",
+      site: "카카오 페이지, 네이버 시리즈",
+      type: "웹소설",
+      genre: "로맨스 판타지",
+      imgUrl:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT312GY8V0uoyS-KqhiqZHRgl9XY38fuEj47Bp9INi7Sw&s=10",
+      linkUrl: "../BookDetailPages/akrsorhdsudmlNovel.html",
+    },
+    {
+      title: "악역 소녀는 사랑받기가 부끄러워요",
+      site: "카카오 페이지, 네이버 시리즈",
+      type: "웹소설",
+      genre: "로맨스 판타지",
+      imgUrl:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsoHu83DNy_vzVeMGet6wfvuWRFFHlDtKvnU5J-plM9g&s=10",
+      linkUrl: "../BookDetailPages/dkrdurqnRmNovel.html",
+    },
+    {
+      title: "다시 한번, 빛 속으로",
+      site: "카카오 페이지",
+      type: "웹소설",
+      genre: "로맨스 판타지",
+      imgUrl:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMU6XaKpMZ7ow7HWg5VPQWMo7a_YVMywKbvTEyTd1eTQ&s=10",
+      linkUrl: "../BookDetailPages/againLightNovel.html",
+    },
+    {
+      title: "곱게 키웠더니, 짐승",
+      site: "네이버 시리즈",
+      type: "웹소설",
+      genre: "로맨스 판타지",
+      imgUrl:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLPL_TahsKxKtK7VMo1666GTIijQK3sDSBlOpE-opeMg&s=10",
+      linkUrl: "../BookDetailPages/EimonNovel.html",
+    },
+    {
+      title: "빙의자를 위한 특혜",
+      site: "카카오 페이지",
+      type: "웹소설",
+      genre: "로맨스 판타지",
+      imgUrl:
+        "https://i.namu.wiki/i/iJFXKSRMwhIqSyN_0rLLUE4vHQCYDhXuNImGI9LzJjOeTzWkvqfUoV1DVbB4gbyzZKslSfDw05VrkrK03EnGb98FTHdGhiEtzRpx4OWvGOPDAmxTmcGdXw1jqTW4Rlr2xAO-iaU1EZwFrZygP96Gng.webp",
+      linkUrl: "../BookDetailPages/AiletNovel.html",
+    },
+    {
+      title: "이상한데 효과적인 악녀 생활",
+      site: "카카오 페이지",
+      type: "웹소설",
+      genre: "로맨스 판타지",
+      imgUrl:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvFvrpkQzmvV1FczJaZWsZVNenMozyfFtyi1Q1oaw4Iw&s=10",
+      linkUrl: "../BookDetailPages/KianaNovel.html",
+    },
+    {
+      title: "가짜를 위한 장소는 없다",
+      site: "카카오 페이지",
+      type: "웹소설",
+      genre: "로맨스 판타지",
+      imgUrl:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQWg4PGRewOzPcZTBcV9Uhmc1LGYYSORv_WHMEPSBnWw&s=10",
+      linkUrl: "../BookDetailPages/FilomelNovel.html",
+    },
   ];
   /*
   상수로 되어 있는 배열이 맞음.

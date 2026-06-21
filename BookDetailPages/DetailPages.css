@@ -28,9 +28,7 @@
   display: flex;
   background-color: #fff;
   border-radius: 12px;
-  width: 78%;
   height: auto; /*상자의 크기가 텍스트 크기 만큼 늘어나게*/
-  margin-left: 9%;
   margin-top: 30px;
   margin-bottom: 20px;
   padding-bottom: 30px;
@@ -104,8 +102,6 @@ input[type="checkbox"]:checked + label #more {
 #BookMemoCard {
   background-color: #fff;
   border-radius: 12px;
-  margin-left: 9%;
-  width: 78%;
   height: auto;
   padding-top: 2px;
   box-shadow: 1px 1px 5px 1px #dee2e6; /*그림자를 만들어서 경계선 명확하게 하기*/
@@ -137,8 +133,22 @@ textarea:focus {
   background-color: #fff;
   display: inline-flex;
   margin-top: 20px;
-  margin-left: 1%;
-  width: 36%;
+  margin-left: 0.5%;
+  width: 47%;
+  height: 225px;
+  color: #222;
+  padding: 15px;
+  border-radius: 12px;
+  font-family: "Pretendard", sans-serif; /*폰트 지정*/
+  box-shadow: 1px 1px 5px 1px #dee2e6; /*그림자를 만들어서 경계선 명확하게 하기*/
+}
+.margin2 {
+  /*왼쪽에 있는 작품 카드*/
+  background-color: #fff;
+  display: inline-flex;
+  margin-top: 20px;
+  margin-left: 0.5%;
+  width: 47%;
   height: 225px;
   color: #222;
   padding: 15px;
@@ -171,21 +181,6 @@ textarea:focus {
 .DetailPagesLink {
   text-decoration: none; /*밑줄 삭제*/
 }
-.margin2 {
-  /*왼쪽에 있는 작품 카드*/
-  background-color: #fff;
-  display: inline-flex;
-  margin-top: 20px;
-  margin-left: 9%;
-  margin-bottom: 5px;
-  width: 36%;
-  height: 225px;
-  color: #222;
-  padding: 15px;
-  border-radius: 12px;
-  font-family: "Pretendard", sans-serif; /*폰트 지정*/
-  box-shadow: 1px 1px 5px 1px #dee2e6; /*그림자를 만들어서 경계선 명확하게 하기*/
-}
 .similarBooks {
   margin-bottom: 40px;
 }
@@ -194,11 +189,12 @@ textarea:focus {
   color: #437355;
   font-size: 22px;
   font-weight: bold;
-  margin-left: 12%;
   margin-top: 20px;
   margin-bottom: 0px;
+  margin-left: 2%;
 }
 .original {
+  /*원작이라는 글자에 대한 스타일*/
   font-weight: bold;
   color: #437355;
   padding: 10px;
@@ -215,6 +211,19 @@ textarea:focus {
   background-color: #e2ece6;
   padding: 7px;
   border-radius: 12px;
+}
+.bookLinks {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none; /*밑줄 삭제*/
+  font-family: "Pretendard", sans-serif; /*폰트 지정*/
+  font-size: 16px;
+  font-weight: bold;
+  color: #437355;
+  background-color: #e2ece6;
+  padding: 7px;
+  border-radius: 12px;
+  margin-bottom: 4%;
 }
 #leftBox {
   width: 19%;
@@ -246,10 +255,8 @@ textarea:focus {
 #recommendOfbook {
   background-color: #fff;
   border-radius: 12px;
-  width: 78%;
   height: auto;
   padding: 2px;
-  margin-left: 9%;
   margin-bottom: 20px; /*추천 카드와 메모 카드 사이의 마진*/
   box-shadow: 1px 1px 5px 1px #dee2e6; /*그림자를 만들어서 경계선 명확하게 하기*/
 }
@@ -268,4 +275,9 @@ textarea:focus {
   flex-wrap: wrap;
   margin: 20px;
   line-height: 23px; /*줄 간격 띄우기*/
+}
+#center {
+  display: block;
+  margin: 0 auto;
+  width: 78%; /*전체 카드의 너비를 78%로 통일*/
 }

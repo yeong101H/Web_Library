@@ -100,7 +100,6 @@ button:active {
   padding: 20px;
   width: 700px;
   height: 500px;
-  margin-left: 21%;
   margin-top: 30px;
   border: #4373556e solid 2px;
 }
@@ -130,4 +129,11 @@ button:active {
   right: 0;
   z-index: -1;
   opacity: 0.1;
+}
+#center {
+  /*랜덤 페이지에만 스타일 적용*/
+  display: flex;
+  justify-content: center;
+  align-items: space-around;
+  margin-top: 5%;
 }

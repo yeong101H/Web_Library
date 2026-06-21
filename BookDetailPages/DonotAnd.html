@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>도나츠와 서커스</title>
+    <link rel="stylesheet" href="../header.css" />
+    <link rel="stylesheet" href="../BookDetailPages/DetailPages.css" />
+  </head>
+  <body>
+    <div class="header">
+      <a href="../main.html" class="home">Web_Library</a>
+      <a
+        href="../categoryPages/genrePage/genre-romanceFantasy.html"
+        class="headCategory"
+        id="genre-hover"
+        >장르</a
+      >
+      <a href="/" class="headCategory" id="site-hover">사이트</a>
+      <a href="/" class="headCategory" id="webtoonOrWebnovel-hover">매체</a>
+      <a href="/" class="headCategory" id="subCategory-hover">보관함</a>
+      <a
+        href="../randomPage/randomRoulette.html"
+        class="headCategory"
+        id="randomRoulette-hover"
+        >랜덤 룰렛</a
+      >
+      <a href="/" class="login">로그인</a>
+    </div>
+    <div id="leftBox">
+      <img src="../Leaps/1-removebg-preview.png" alt="흩날리는 나뭇잎들" />
+      <img src="../Leaps/2-removebg-preview.png" alt="조금 다르게 흩날려보기" />
+      <img src="../Leaps/3-removebg-preview.png" alt="또 다르게 흩날리기" />
+    </div>
+    <div id="center">
+      <div class="BookDetailPagesCard">
+        <img
+          src="https://search.pstatic.net/common?type=f&size=174x226&quality=75&direct=true&src=https%3A%2F%2Fshared-comic.pstatic.net%2Fthumb%2Fwebtoon%2F844787%2Fthumbnail%2Fthumbnail_IMAG21_f0d3bfca-c772-44f7-9a08-de0ef9fa047b.jpg"
+          alt="작품 표지"
+          class="bookCover-detailPage"
+        />
+        <div class="bookInformation">
+          <p class="bookName">도나츠와 서커스</p>
+          <p>연재 사이트 | 네이버 웹툰</p>
+          <p>장르 | 기타</p>
+          <p>매체 | 웹툰</p>
+          <p class="writer">작가</p>
+          <div class="writerCard">
+            <p class="writerText">스토리 | 오븐</p>
+            <p class="writerText">작화 | 오븐</p>
+          </div>
+          <a
+            href="https://comic.naver.com/webtoon/list?titleId=844787"
+            id="bookLink"
+            >작품 바로보러 가기!</a
+          >
+        </div>
+        <div id="StoryInformationCard">
+          <input type="checkbox" id="bookStory" />
+          <label for="bookStory">
+            <span id="StoryName">작품 소개</span>
+            <span id="StorySome">
+              어서오세요! 케이크 서커스에! <br />
+              서커스는 오늘도 공연을 위해 떠나요. ...<br />
+            </span>
+
+            <span id="more">더보기</span>
+          </label>
+
+          <div class="otherStoryLineCard">
+            <p>
+              어서오세요! 케이크 서커스에! <br />
+              서커스는 오늘도 공연을 위해 떠나요. <br />
+              도나츠도 어서 무대에 서고 싶지만, <br />
+              망쳐버리면 어떡하죠? <br />
+              가ㄹ 길이 먼 도나츠! 무사히 공연을 마칠 수 있을까요?
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="BookMemoCard">
+        <p id="memo">메모</p>
+        <textarea
+          name="memo"
+          id="BookMemo"
+          data-storage-key="memo-DonatAndToon"
+          placeholder="작품에 대한 감상을 적어보세요"
+        ></textarea>
+      </div>
+      <div id="rightBox">
+        <img src="../Leaps/2-removebg-preview.png" alt="어쨌든 흩날림" />
+        <img
+          src="../Leaps/3-removebg-preview.png"
+          alt="보이지 않겠지만 흩날리고 있어요"
+        />
+        <img
+          src="../Leaps/1-removebg-preview.png"
+          alt="착한사람에게만 보이는 나뭇잎들"
+        />
+      </div>
+    </div>
+    <script src="./Memo.js"></script>
+  </body>
+</html>
